@@ -1,41 +1,82 @@
 export default function Home() {
   return (
-    <main style={{fontFamily:'sans-serif',padding:'40px',maxWidth:900,margin:'0 auto'}}>
+    <main>
+      {/* HERO */}
       <section>
-        <p>Eyebrow</p>
-        <h1>Headline with clear value proposition</h1>
-        <p>Explain what user gets quickly and why it matters.</p>
+        <p>Pro koho je to</p>
+        <h1>Získej více leadů z jedné jednoduché landing page</h1>
+        <p>Minimalistická stránka, která konvertuje a sbírá kontakty bez tření.</p>
       </section>
 
+      {/* FORM */}
       <section>
-        <p>Eyebrow</p>
-        <h2>Contact</h2>
+        <p>Začni</p>
+        <h2>Nech nám kontakt</h2>
         <form>
-          <input placeholder="Name" />
+          <input placeholder="Jméno" />
           <input placeholder="Email" />
-          <input placeholder="Phone" />
-          <input placeholder="Company" />
-          <textarea placeholder="Message" />
-          <label>
-            <input type="checkbox" /> GDPR consent
-          </label>
-          <button type="submit">Submit</button>
+          <input placeholder="Telefon" />
+          <input placeholder="Firma" />
+          <textarea placeholder="Zpráva" />
+          <label><input type="checkbox" /> Souhlas se zpracováním</label>
+          <button type="submit">Odeslat</button>
         </form>
       </section>
 
+      {/* SOCIAL PROOF */}
       <section>
-        <p>Eyebrow</p>
-        <h2>Social proof</h2>
-        <p>★★★★★ Trusted by clients</p>
+        <p>Důvěra</p>
+        <h2>Ověřeno klienty</h2>
+        <p>★★★★★ + reálné reference</p>
       </section>
 
+      {/* BENEFITS */}
       <section>
-        <p>Eyebrow</p>
-        <h2>FAQ</h2>
+        <p>Výhody</p>
+        <h2>Proč to funguje</h2>
+        <ul>
+          <li>Rychlé načtení</li>
+          <li>Jasná struktura</li>
+          <li>Silná výzva k akci</li>
+        </ul>
+      </section>
+
+      {/* FEATURES */}
+      <section>
+        <p>Funkce</p>
+        <h2>Co přesně dostaneš</h2>
+        <ul>
+          <li>Landing page template</li>
+          <li>Kontaktní formulář</li>
+          <li>Připravené sekce</li>
+        </ul>
+      </section>
+
+      {/* CTA */}
+      <section>
+        <p>Akce</p>
+        <h2>Začni hned</h2>
+        <button>Získat kontakt</button>
+      </section>
+
+      {/* FAQ */}
+      <section>
+        <p>Otázky</p>
+        <h2>Časté dotazy</h2>
         <details>
-          <summary>Question?</summary>
-          <p>Answer.</p>
+          <summary>Jak rychle to nasadím?</summary>
+          <p>Během pár minut.</p>
         </details>
+        <details>
+          <summary>Je to vhodné pro jakýkoliv projekt?</summary>
+          <p>Ano.</p>
+        </details>
+      </section>
+
+      {/* FOOTER */}
+      <section>
+        <p>Footer</p>
+        <p>© Brand</p>
       </section>
     </main>
   )
